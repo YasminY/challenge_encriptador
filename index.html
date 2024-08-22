@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-mex">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="Imagenes/Logo.svg" alt="logo">
+        <a class="titulo"> Encriptador</a>
+    </header>
+    <main>
+        <section class="seccion_usuario">
+            <div class="seccion_usuario_caja">
+                <textarea placeholder="Ingrese el texto aqui" class="seccion_usuario_cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <p>Ingresa tu texto el cual no debe tener caracteres especiales</p>
+            </div>
+            <div class="seccion_boton">
+                <input type="button" class="seccion_boton_encriptar" value="Encriptar">
+                <input type="button" class="seccion_boton_desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion_resultado">
+            <div class="seccion_resultado_muneco">
+                <img src="Imagenes/Muñeco.svg" alt="muñeco">
+            </div>
+            <div class="seccion_parrafo">
+                <h3 class="seccion_parrafo_nada">Nigún mensaje fue <br> encontrado</h3>
+                <p class="seccion_parrafo_ingresa">Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="seccion_copiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+            <div class="seccion_resultado_final">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p >Desarrollado por Yas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
